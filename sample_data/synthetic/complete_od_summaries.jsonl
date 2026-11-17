@@ -1,0 +1,3 @@
+{"CardID": "T001", "TR": ["Bus_A -> Subway_B", "Subway_B -> Bus_C", "Bus_A -> Subway_B", "Subway_B -> Bus_C"], "U": [{"od": "Bus_A -> Subway_B", "freq": 2, "Pos": [1, 3]}, {"od": "Subway_B -> Bus_C", "freq": 2, "Pos": [2, 4]}]}
+{"CardID": "T002", "TR": ["Bus_A -> Subway_B", "Subway_B -> Bus_C"], "U": [{"od": "Bus_A -> Subway_B", "freq": 1, "Pos": [1]}, {"od": "Subway_B -> Bus_C", "freq": 1, "Pos": [2]}]}
+{"CardID": "T003", "TR": ["Bus_A -> Subway_B", "Subway_X -> Bus_Y"], "U": [{"od": "Bus_A -> Subway_B", "freq": 1, "Pos": [1]}, {"od": "Subway_X -> Bus_Y", "freq": 1, "Pos": [2]}]}

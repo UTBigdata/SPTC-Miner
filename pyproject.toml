@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sptc-miner"
+version = "0.1.0"
+description = "Spatially partitioned topology-constrained transfer sequence mining"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.20", "scikit-learn>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,4 @@
+CardID,Transfer_Trajectory
+T001,"Bus_A -> Subway_B,Subway_B -> Bus_C,Bus_A -> Subway_B,Subway_B -> Bus_C"
+T002,"Bus_A -> Subway_B,Subway_B -> Bus_C"
+T003,"Bus_A -> Subway_B,Subway_X -> Bus_Y"

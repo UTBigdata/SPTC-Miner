@@ -1,0 +1,21 @@
+# Generated Spark/Hadoop products and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.build/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+output/
+outputs/
+*.log
+.DS_Store
+# Do not commit credentials or private datasets
+.env
+*.key
+*.pem
+private_data/
